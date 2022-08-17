@@ -5,14 +5,11 @@
 }
 
 :root {
-    --blue-text: #86ddff;
-    --dark-blue: #002b8f;
-    --mid-blue: #3ba0ff;
+    --blue-text: #f11414;
+    --dark-blue: #008f30;
+    --mid-blue: #e6e222;
 }
 
-#mobile-name {
-    display: none;
-}
 
 .nav-bar{
     position:absolute;
@@ -24,7 +21,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 10;
+    padding: 0 10%;
     list-style: none;
     height: 10vh;
     background-color: rgba(100, 100, 100, 0.2);
@@ -56,7 +53,7 @@ a {
 .container {
     position: relative;
     height: 100vh;
-    width: 100vh;
+    width: 100%;
     overflow: hidden;
 }
 
@@ -93,10 +90,11 @@ a {
 .hero-text {
     display: flex;
     justify-content: center;
-    align-items: left;
+    align-items: right;
+    text-align: right;
     flex-direction: column;
     position: absolute;
-    top: 35%;
+    top: 45%;
     left: 10%;
     font-size: 25px;
     color: #fff;
@@ -106,6 +104,7 @@ a {
 
 .firstword {
     color: var(--blue-text);
+    align-items: right;
 }
 
 .resume-cta{
@@ -113,6 +112,7 @@ a {
     width: 175px;
     padding: 30px;
     margin-top:20px;
+    text-align: right;
 }
 
 .resume-text {
@@ -145,7 +145,7 @@ a {
 }
 
 /*1st project*/
-.project {
+.run-buddy {
     width: 400px;
     height: 400px;
     background: #fff;
@@ -167,7 +167,7 @@ a {
     box-shadow: -15px 7px 30px rgba(100, 100, 100, 0.2);
     border-radius: 10px;
     margin: 50px;
-    background image: url(images/);
+    background-image: url(images/);
     background-size: cover;
     background-position: center; 
 }
@@ -250,7 +250,7 @@ a {
     width: 80%;
     height: auto;
     background-color: #f8f8f8;
-    box-shadow: -15px 7px 30 px rgba(0, 0, 0, 0.2);)
+    box-shadow: -15px 7px 30 px rgba(0, 0, 0, 0.2);
 }
 
 .about-section {
@@ -272,7 +272,14 @@ a {
     height: auto;
     width: 40%;
     font-size: 1.5rem;
-    margin-level: 100px;
+    margin-left: 100px;
 }
 
-.social-icons {}
+
+
+
+
+
+
+
+

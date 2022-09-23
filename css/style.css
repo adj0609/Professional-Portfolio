@@ -126,7 +126,7 @@ a {
 /*projects */
 
 .projects-container {
-    width: 100%;
+    width: auto;
     height: auto;
 }
 
@@ -173,7 +173,7 @@ a {
 }
 
 /*project 3*/
-.project {
+.Quiz-Me {
     width: 400px;
     height: 400px;
     background: #fff;
@@ -186,15 +186,15 @@ a {
     background-position: center; 
 }
 /*project 4*/
-.project {
-    width: 400px;
+.Between-the-Looking-Glass {
+    width: 200px;
     height: 400px;
     background: #fff;
     position: relative;
     box-shadow: -15px 7px 30px rgba(100, 100, 100, 0.2);
     border-radius: 10px;
     margin: 50px;
-    background-image: url(images/);
+    background-image: url(images/eyeball.png);
     background-size: cover;
     background-position: center; 
 }
